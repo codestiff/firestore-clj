@@ -8,6 +8,7 @@
   :dependencies [[org.clojure/clojure "1.10.1" :scope "provided"]
                  [org.clojure/core.match "1.0.0"]
                  [com.google.firebase/firebase-admin "6.12.2"]
+                 [io.grpc/grpc-core "1.24.1" :scope "provided"]
                  [manifold "0.1.8"]]
   :aot [firestore-clj.google.fake-credentials
         firestore-clj.google.emulator-channel-configurator]
